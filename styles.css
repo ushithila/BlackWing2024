@@ -1,0 +1,280 @@
+/* Possible Color Palettes:
+https://coolors.co/palette/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf 
+https://coolors.co/palette/ffb5a7-fcd5ce-f8edeb-f9dcc4-fec89a 
+https://coolors.co/palette/cb997e-eddcd2-fff1e6-f0efeb-ddbea9-a5a58d-b7b7a4
+https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644 */
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  text-align: center !important;
+  margin: 0px;
+}
+
+body {
+  background-color: #e5e3f9 !important;
+  /*green / dark green  6eb46f */
+  /* b5eaa9 */
+  /*purple*/
+  /* #FFE1F5 */
+
+}
+
+.ourMission {
+  margin: 55px;
+  padding: 60px;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-color: #d8d6fc;
+  /* base color e9d6ff */
+
+}
+
+.bulletInfo {
+  padding-bottom: 110px;
+  /* padding-top: 60px; */
+  display: inline-block;
+  margin: 30px;
+  padding: 20px;
+  background-color: #d8d6fc;
+
+}
+
+.moreSustain {
+  margin: 35px;
+  padding: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f2f0f6;
+}
+
+.aboutUs {
+  padding-bottom: 100px;
+  padding-top: 60px;
+  display: inline-block;
+  margin: 30px;
+  padding: 60px;
+  background-color: #f2f0f6;
+}
+
+.Contact {
+  padding-bottom: 0px;
+  padding-top: 100px;
+  margin: 0px;
+  padding: 60px;
+  background-color: #cbc9ff;
+  /* c3bce1 */
+
+}
+
+/* Headings */
+.headings {
+
+  /* font-family: 'Brawler';font-size: 22px; */
+  font-family: 'Aboreto';
+  font-size: 45px;
+  color: #706ebf;
+}
+
+h2 {
+  font-size: 40px !important;
+  color: #706ebf;
+
+}
+
+h3 {
+  font-size: 30px !important;
+  color: #706ebf;
+}
+
+/* Body Text */
+b1 {
+  font-family: 'Alegreya';
+  font-size: 19px;
+  color: #706ebf;
+}
+
+
+/* Carousel */
+.carousels {
+  margin: auto;
+  width: 960px;
+  /*640*/
+  height: 540px;
+  /*360*/
+  padding-bottom: 200px;
+  /* padding: 50px; */
+
+}
+
+
+/* Navigation Bar */
+.navcolor {
+  background-color: #d8d6fc;
+  /*ac99f0*/
+  /* yellow ffe5b8*/
+  /* lime green aad576*/
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.navcolor a {
+  color: black;
+  text-align: center;
+  /* display: inline-block; */
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navcolor a:hover {
+  background-color: #cbc9ff;
+  /* text-decoration: none; */
+}
+
+.navbar {
+  text-align: center;
+  /* text-decoration: none; */
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px;
+  /* text-align: center;
+  padding-right: 10px;
+  padding-left: 10px; */
+  text-decoration: none;
+}
+
+
+.search-bar i {
+  right: 100px;
+}
+
+.test::-webkit-scrollbar {
+  display: none;
+}
+
+.search-bar {
+  text-align: center;
+  font-family: 'Aboreto';
+
+}
+
+.search-bar input {
+  height: 40px;
+  width: 1000px;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+}
+
+/*For the Box Brands*/
+
+/*No need to change*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px;
+  margin-top: -25px;
+  margin-left: 50px;
+  justify-content: flex-start;
+}
+
+/*No need to change*/
+.card {
+  box-sizing: border-box;
+  height: 200px;
+  overflow: hidden;
+  transition: 1.0s;
+  margin: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  /*if you want to change the shadow color*/
+
+}
+
+
+/*change color (top of box)*/
+.card__top {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #f2f0f6;
+  /*top box text color*/
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  background: #a891d9;
+  /*box color for top*/
+  transition: 0.8s;
+}
+
+/*font of the top of box, no change*/
+.card__top>h1 {
+  font-size: 24px;
+}
+
+/*transition of the top of box color*/
+.card:hover>.card__top {
+  background: #f2f0f6;
+  /*when hover color change top box*/
+  color: #7e7bd5;
+  /*text color change top box when hover*/
+}
+
+/*size of bottom box, no change*/
+.card:hover {
+  height: 550px;
+}
+
+.card__bottom {
+  box-sizing: border-box;
+  height: 600px;
+  width: 300px;
+  text-align: center;
+  padding: 16px;
+  background: #9694cc;
+  /*bottom box color*/
+}
+
+/*Font of the bottom of card (expand)*/
+.card__bottom>p {
+  color: #ffffff;
+  /*text of bottom box*/
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+/*Button*/
+.card__bottom a {
+  background: #f2f0f6;
+  /*color of button*/
+  color: #9694cc;
+  /*text color*/
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: 0.5s;
+}
+
+.card__bottom a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  /*color it changes to when hovered*/
+  color: #fff;
+}
+
+.info_help {
+  margin-top: 10%;
+  font-size: 24px;
+}
+
+.develop {
+  float: right;
+  margin-top: -130px;
+  text-align: center;
+}
