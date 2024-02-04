@@ -28,3 +28,4 @@ Through the course of creating Sustain You, we found many unique brands and even
 
 ## What's next for Sustain You
 We would like to add more brands on Sustain You in a more efficient way instead of having to manually add them repetitively. This would save time on developing the website further and allow us to add more categories, such as a section for ethically made handbags or shoes and a section for bath products. 
+Our events page is also currently centered around areas in NYC, so we would also like to incorporate a more global perspective to allow anyone from around the world to find out what events are available near them that could help them be more sustainable.
